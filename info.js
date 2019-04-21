@@ -9,7 +9,7 @@ function show (data) {
 $(document).ready ( () =>
     $.ajax({  
         type: "Get",  
-        url:"http://solelinks.com/api/releases?page=1&upcoming=true.json",
+        url:"https://solelinks.com/api/releases?page=1&upcoming=true.json",
         error: function(request) {
             alert("Connection error");
         },
